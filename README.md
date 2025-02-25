@@ -15,6 +15,7 @@ A Python-based tool designed to test the security of WordPress websites by simul
 ---
 
 ## File Structure
+```
 ├── config.py # Configuration file for target URL, usernames, etc.
 ├── credentials.json # Stores credentials for testing (if needed).
 ├── logger.py # Handles logging of attempts and results.
@@ -22,3 +23,4 @@ A Python-based tool designed to test the security of WordPress websites by simul
 ├── password_handler.py # Manages password lists and iteration.
 ├── request.py # Handles HTTP requests to the WordPress login page.
 └── successful_logins.txt # Stores successfully cracked credentials.
+```
